@@ -4,18 +4,16 @@ This repository hosts the public support and legal documents for the mobile appl
 
 ## 🔗 Live Support Page (GitHub Pages)
 You can view the support/contact page here:  
-➡️ https://<your-username>.github.io/<your-repo>/contact.html
-
-Replace `<your-username>` and `<your-repo>` accordingly.
+➡️ https://gokcekaan97.github.io/LandyNote/index.html
 
 ## 📁 Included Files
 
 | File              | Description                     |
 |-------------------|---------------------------------|
-| `contact.html`    | Multi-language support page     |
-| `privacy_tr.pdf`  | Gizlilik Politikası (Türkçe)     |
+| `index.html`      | Multi-language support page     |
+| `privacy_tr.pdf`  | Gizlilik Politikası (Türkçe)    |
 | `privacy_en.pdf`  | Privacy Policy (English)        |
-| `terms_tr.pdf`    | Kullanım Koşulları (Türkçe)      |
+| `terms_tr.pdf`    | Kullanım Koşulları (Türkçe)     |
 | `terms_en.pdf`    | Terms of Use (English)          |
 
 ## 📬 Contact Information
