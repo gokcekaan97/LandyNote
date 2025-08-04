@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bize Ulaşın / Contact Us</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 2rem; }
+    h1 { color: #2c3e50; }
+    section { margin-bottom: 2rem; }
+    hr { margin: 2rem 0; }
+    select { margin-bottom: 2rem; padding: 0.5rem; font-size: 1rem; }
+    ul { padding-left: 1.2rem; }
+  </style>
+</head>
+<body>
+
+  <label for="languageSelect"><strong>Language / Dil Seçin:</strong></label>
+  <select id="languageSelect" onchange="changeLanguage()">
+    <option value="tr">Türkçe</option>
+    <option value="en">English</option>
+  </select>
+
+  <div id="content-tr">
+    <h1>Bize Ulaşın</h1>
+    <section>
+      <p>Uygulamayla ilgili yaşadığınız sorunları, geri bildirimlerinizi veya yeni özellik taleplerinizi bizimle paylaşabilirsiniz.</p>
+      <ul>
+        <li><strong>E-posta:</strong> <a href="mailto:kaangokcek@icloud.com">kaangokcek@icloud.com</a></li>
+        <li><strong>Instagram:</strong> <a href="https://www.instagram.com/gokcekjr/" target="_blank">@gokcekjr</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Belgeler</h2>
+      <ul>
+        <li><a href="privacy_tr.pdf" target="_blank">Gizlilik Politikası (PDF)</a></li>
+        <li><a href="terms_tr.pdf" target="_blank">Kullanım Koşulları (PDF)</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div id="content-en" style="display:none;">
+    <h1>Contact Us</h1>
+    <section>
+      <p>If you experience issues, have feedback, or would like to request a feature, feel free to contact us.</p>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:kaangokcek@icloud.com">kaangokcek@icloud.com</a></li>
+        <li><strong>Instagram:</strong> <a href="https://www.instagram.com/gokcekjr/" target="_blank">@gokcekjr</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Documents</h2>
+      <ul>
+        <li><a href="privacy_en.pdf" target="_blank">Privacy Policy (PDF)</a></li>
+        <li><a href="terms_en.pdf" target="_blank">Terms of Use (PDF)</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <script>
+    function changeLanguage() {
+      const lang = document.getElementById('languageSelect').value;
+      document.getElementById('content-tr').style.display = lang === 'tr' ? 'block' : 'none';
+      document.getElementById('content-en').style.display = lang === 'en' ? 'block' : 'none';
+    }
+  </script>
+
+</body>
+</html>
